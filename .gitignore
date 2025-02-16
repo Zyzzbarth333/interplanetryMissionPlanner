@@ -1,0 +1,51 @@
+# .gitignore
+# SPICE Kernels
+data/ephemeris/spice/kernels/lsk/*.tls
+data/ephemeris/spice/kernels/pck/*.bpc
+data/ephemeris/spice/kernels/pck/*.tpc
+data/ephemeris/spice/kernels/spk/comets/*.bsp
+data/ephemeris/spice/kernels/spk/jupiter/*.bsp
+data/ephemeris/spice/kernels/spk/mars/*.bsp
+data/ephemeris/spice/kernels/spk/neptune/*.bsp
+data/ephemeris/spice/kernels/spk/pluto/*.bsp
+data/ephemeris/spice/kernels/spk/saturn/*.bsp
+data/ephemeris/spice/kernels/spk/uranus/*.bsp
+data/ephemeris/spice/kernels/spk/*.bsp
+
+# Allow metakernel
+!data/ephemeris/spice/meta/metakernel.tm
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE specific files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+# Additional PyCharm files
+.idea/shelf/
+.idea/workspace.xml
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.local.xml
